@@ -6,7 +6,6 @@ from concurrent.futures import ThreadPoolExecutor
 import threading
 
 untracked_lock = threading.Lock()
-wrong_lock = threading.Lock()
 reRead_data = []
 
 def initializer_worker():
